@@ -205,6 +205,27 @@ footer .endereço{
     line-height: normal;
     text-align: center;
 }
+footer .linha2{
+   height: 35px;
+   display: flex;
+   justify-content: center;
+   margin: 0px;
+   padding: 10px; 
+}
+footer .linha2 a{
+    font-family: var(--fonte-padrao);
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFF;
+    text-decoration: none;
+    padding: 5px;
+}
+footer .linha2 a:hover{
+    color:var(--cinza-hover)
+}
+footer .linha2 a:first-child{
+    border-right: 3px;
+}
 @media only screen and (max-width: 600px) {
     #principal{
         display: flex;
@@ -239,5 +260,12 @@ footer .endereço{
   }
   .checkbox-items label {
     font-size:16px ;
+  }
+  /*footer*/
+  footer .linha1{
+    flex-direction: column;
+  }
+  footer .endereço{
+    margin-bottom: 20px;
   }
 }
