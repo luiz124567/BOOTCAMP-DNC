@@ -4,11 +4,12 @@
     --preto-dnc:#303030;
     --cinza-hover:#C9C9C9;
     --fonte-padrao:'inter'
+    --cinza-dnc:#fff
 }
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(180deg, rgba(12, 112, 242, 0.50) 19.91%, rgba(12, 112, 242, 0.00) 24.84%), #303030;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.50) 26.91%, rgba(12, 112, 242, 0.00) 35.84%), #303030;
     background-repeat: no-repeat;
 }
 #principal{
@@ -252,14 +253,14 @@ footer .linha2 a:first-child{
   }
   section h2{
     font-size: 28px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 19px;
+    padding-left: 19px;
   }
   form{
     width: 95%;
   }
   .checkbox-items label {
-    font-size:16px ;
+    font-size:12px ;
   }
   /*footer*/
   footer .linha1{
